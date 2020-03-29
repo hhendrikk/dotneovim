@@ -6,6 +6,7 @@ The plugins are managed by [VIM-Plug](https://github.com/junegunn/vim-plug).
 
 ## Requirements
 1. python
+2. nodejs
 
 ## Installation
 
