@@ -10,7 +10,7 @@ The plugins are managed by [VIM-Plug](https://github.com/junegunn/vim-plug).
 
 ## Installation
 
-1. Clone the repo with `git clone https://github.com/hhendrikk/dotnvim ~/.config/nvim`
+1. Clone the repo with `git clone https://github.com/hhendrikk/dotneovim ~/.config/nvim`
 2. `cd ~/.config/nvim`
 3. `md backups swaps undos autoload`
 4. `pip install neovim`
