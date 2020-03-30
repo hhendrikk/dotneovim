@@ -110,4 +110,7 @@
     set winminheight=0                     " Allow windows to be squashed
     
     set autoread                           " Reload files
+
+    colorscheme gruvbox                    " Set colorscheme 
+    set background=dark
 " }

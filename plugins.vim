@@ -1,11 +1,15 @@
 call plug#begin('~/.config/nvim/plugged')
 
 Plug 'editorconfig/editorconfig-vim'
-Plug 'dracula/vim', { 'as': 'dracula' }
-
+" Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'morhetz/gruvbox'
 Plug 'ncm2/ncm2'
 Plug 'roxma/nvim-yarp'
 Plug 'SirVer/ultisnips'
+Plug 'preservim/nerdtree'
+Plug 'ryanoasis/vim-devicons'
+Plug 'vim-airline/vim-airline'
+Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' }
 
 " ncm2 completion sources
 Plug 'ncm2/ncm2-bufword'
