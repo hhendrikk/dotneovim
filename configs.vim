@@ -114,3 +114,10 @@
     colorscheme gruvbox                    " Set colorscheme 
     set background=dark
 " }
+
+
+" Python config {
+    if has('win32')
+        let g:python3_host_prog = expand('C:\Python38\python.exe')
+    endif
+" }

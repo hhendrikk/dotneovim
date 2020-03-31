@@ -1,4 +1,8 @@
-call plug#begin('~/.config/nvim/plugged')
+if has('win32')
+  call plug#begin('~/AppData/Local/nvim/plugged')
+elseif
+  call plug#begin('~/.config/nvim/plugged')
+endif
 
 Plug 'editorconfig/editorconfig-vim'
 " Plug 'dracula/vim', { 'as': 'dracula' }
