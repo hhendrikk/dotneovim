@@ -1,6 +1,6 @@
 if has('win32')
   call plug#begin('~/AppData/Local/nvim/plugged')
-elseif
+else
   call plug#begin('~/.config/nvim/plugged')
 endif
 
@@ -13,6 +13,7 @@ Plug 'SirVer/ultisnips'
 Plug 'preservim/nerdtree'
 Plug 'ryanoasis/vim-devicons'
 Plug 'vim-airline/vim-airline'
+Plug 'tpope/vim-fugitive'
 Plug 'Shougo/denite.nvim', { 'do': ':UpdateRemotePlugins' }
 
 " ncm2 completion sources

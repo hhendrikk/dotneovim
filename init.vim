@@ -4,7 +4,7 @@ if has('win32')
 " }
 
 " Mappings {
-   source ~/AppData/Local/nvim/mappings.vim
+  source ~/AppData/Local/nvim/mappings.vim
 " }
 
 " Plugin configs {
@@ -14,7 +14,7 @@ if has('win32')
 " Configs {
    source ~/AppData/Local/nvim/configs.vim
 " }
-elseif
+else
 " Plugins {
   source ~/.config/nvim/plugins.vim
 " }
