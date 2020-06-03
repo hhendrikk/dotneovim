@@ -11,10 +11,12 @@ let mapleader = ","
   command Todo noautocmd vimgrep /TODO\|FIXME/j ** | cw
 " }
 
+if !exists('g:vscode')
 " Remap jj do esc {
-  inoremap fd <Esc>
+  inoremap jj <Esc>
   inoremap <Esc> <Nop>
 " }
+endif
 
 " Neovim :Terminal {
   tmap <Esc> <C-\><C-n>
